@@ -3,6 +3,7 @@ import { type UserRole } from "@/types"
 import { clerkClient } from "@clerk/nextjs"
 import { authMiddleware } from "@clerk/nextjs/server"
 
+
 export default authMiddleware({
   // Public routes are routes that don't require authentication
   publicRoutes: [
